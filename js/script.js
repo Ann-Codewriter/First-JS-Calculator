@@ -66,7 +66,26 @@ if (score >= 90 ) {
     console.log("Grade: A")
 }
 
-let score = 95; //Task 1 (90 or above)
-if (score >= 90 ) {
-    console.log("Grade: A")
+
+let score = 83; //Task 2 (80 to 89)
+if (score >= 80 && score <= 89) {
+    console.log("Grade: B")
+}
+
+
+let score = 70; //Task 3 (70 to 79)
+if (score >= 70 && score <= 79) {
+    console.log("Grade: C")
+}
+
+
+let score = 62; //Task 4 (60 to 69)
+if (score >= 60 && score <= 69) {
+    console.log("Grade: D")
+}
+
+
+let score = 45; //Task 5 (below 60)
+if (score < 60) {
+    console.log("Grade: f")
 }
