@@ -52,10 +52,21 @@
 // }
 
 
-let number = 21; 
-if (number % 2 === 0){
-    console.log("The number is even.")
+// let number = 21; 
+// if (number % 2 === 0){
+//     console.log("The number is even.")
+// }
+// else if (number % 3 === 0) {
+//     console.log("The number is odd.")
+// }
+
+
+let score = 95; //Task 1 (90 or above)
+if (score >= 90 ) {
+    console.log("Grade: A")
 }
-else if (number % 3 === 0) {
-    console.log("The number is odd.")
+
+let score = 95; //Task 1 (90 or above)
+if (score >= 90 ) {
+    console.log("Grade: A")
 }
