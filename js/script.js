@@ -95,10 +95,21 @@ let password = "hello123"; //Task 1
 if (password === "javascript") {
     console.log("Access granted!")
 }
-
+if (pasword = "123") {
+    console.log("Password is too easy")
+}
 if (password === (" ")) {
     console.log("Password cannot be empty!")
 }
 else {
     console.log("Access denied!")
 }
+
+
+//Password checkers
+//1. Password must contain alphabets, special characters and numbers
+//2. Password must not contain names, phone numbers and date of birth.
+//3. Password must not be easy to guess (e.g. 123, abc).
+//4. Password length must also be considered.
+
+
