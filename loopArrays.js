@@ -36,6 +36,10 @@ for (let value of Object.values(cart)){
 }
 console.log(total);
 
-
-//Task 2 - Number 3
+if (total > 20){  //Task 2 - Number 3
+    console.log("You spent a lot!")
+}
+else {
+    console.log("You spent wisely.")
+}
 
