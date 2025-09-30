@@ -43,3 +43,22 @@ else {
     console.log("You spent wisely.")
 }
 
+
+//Task 3 - Employee Report
+
+let employees = [
+    {name:"Ama", age: "25", salary: "1200"},
+    {name:"Kofi", age: "30", salary: "800"},
+    {name:"Esi", age: "28", salary: "1500"}
+];
+
+for (let key in employees){ //Task 3 - Number 1
+    console.log(key, ":", employees[key]);
+}
+
+if (employees.salary >= 1000){
+    console.log("Good salary")
+}
+else {
+    console.log("Needs review")
+}
