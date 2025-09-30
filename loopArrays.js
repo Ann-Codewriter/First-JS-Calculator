@@ -21,5 +21,21 @@ for (let key in cart) { //Number 1
     console.log(key, "=", cart[key]);
 }
 
-let total = 0; //Number 2
-for (let i = 0; i < cart.length; i++){}
+//Task 2 = Calculating the total cost of all items - Number 2
+
+let cart = {
+    fish: 10,
+    salt: 2,
+    oil: 3
+};
+
+let total = 0;
+
+for (let value of Object.values(cart)){
+    total += value;
+}
+console.log(total);
+
+
+//Task 2 - Number 3
+
