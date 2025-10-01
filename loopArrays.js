@@ -4,10 +4,10 @@ if(num > 0){
     console.log("Positive number.")
 }
 else if (num < 0){
-    console.log("Negative number.");
+    console.log("Negative number.")
 }
 else if (num === 0){
-    console.log("The number is zero.");
+    console.log("The number is zero.")
 }
 
 
@@ -52,9 +52,9 @@ else {
 //Task 3 - Employee Report
 
 let employees = [ //Number 1
-    {name:"Ama", age: 25, salary: "1200"},
-    {name:"Kofi", age: 30, salary: "800"},
-    {name:"Esi", age: 28, salary: "1500"}
+    {name:"Ama", age: 25, salary: 1200},
+    {name:"Kofi", age: 30, salary: 800},
+    {name:"Esi", age: 28, salary: 1500}
 ];
 
 for (let key in employees){ //Task 3 - Number 2
@@ -72,7 +72,7 @@ let highestSalary = 0; //Number 3
 
 for (let i = 0; i < employees.length; i++){
     if (employees[i].salary > highestSalary){
-        highestSalary = +employees[i].salary;
+        highestSalary = employees[i].salary;
     }
 }
 
